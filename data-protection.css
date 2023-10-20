@@ -281,3 +281,146 @@
     padding: 16px;
   }
 }
+
+.data-protection-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.data-protection-text {
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  align-self: center;
+  text-align: center;
+  font-family: "Arial";
+}
+.data-protection-text001 {
+  font-size: 25px;
+}
+.data-protection-text002 {
+  font-family: "Arial";
+}
+.data-protection-text003 {
+  font-size: 25px;
+}
+.data-protection-text018 {
+  font-family: "Arial";
+}
+.data-protection-text020 {
+  font-family: "Arial";
+}
+.data-protection-text023 {
+  font-family: "Arial";
+}
+.data-protection-text025 {
+  font-family: "Arial";
+}
+.data-protection-text028 {
+  font-family: "Arial";
+}
+.data-protection-text031 {
+  font-family: "Arial";
+}
+.data-protection-text034 {
+  font-family: "Arial";
+}
+.data-protection-text037 {
+  font-family: "Arial";
+}
+.data-protection-text040 {
+  font-family: "Arial";
+}
+.data-protection-text043 {
+  font-family: "Arial";
+}
+.data-protection-text045 {
+  font-family: "Arial";
+}
+.data-protection-text048 {
+  font-family: "Arial";
+}
+.data-protection-text050 {
+  font-family: "Arial";
+}
+.data-protection-text053 {
+  font-family: "Arial";
+}
+.data-protection-text055 {
+  font-family: "Arial";
+}
+.data-protection-text058 {
+  font-family: "Arial";
+}
+.data-protection-text060 {
+  font-family: "Arial";
+}
+.data-protection-text063 {
+  font-family: "Arial";
+}
+.data-protection-text066 {
+  font-family: "Arial";
+}
+.data-protection-text069 {
+  font-family: "Arial";
+}
+.data-protection-text072 {
+  font-family: "Arial";
+}
+.data-protection-text074 {
+  font-family: "Arial";
+}
+.data-protection-text077 {
+  font-family: "Arial";
+}
+.data-protection-text079 {
+  font-family: "Arial";
+}
+.data-protection-text082 {
+  font-family: "Arial";
+}
+.data-protection-text084 {
+  font-family: "Arial";
+}
+.data-protection-text087 {
+  font-family: "Arial";
+}
+.data-protection-text089 {
+  font-family: "Arial";
+}
+.data-protection-text092 {
+  font-family: "Arial";
+}
+.data-protection-text094 {
+  font-family: "Arial";
+}
+.data-protection-text097 {
+  font-family: "Arial";
+}
+.data-protection-text099 {
+  font-family: "Arial";
+}
+.data-protection-text102 {
+  font-family: "Arial";
+}
+.data-protection-text105 {
+  font-family: "Arial";
+}
+.data-protection-text108 {
+  font-family: "Arial";
+}
+.data-protection-text111 {
+  font-family: "Arial";
+}
+.data-protection-text113 {
+  font-family: "Arial";
+}
+.data-protection-text116 {
+  font-family: "Arial";
+}
+.data-protection-text118 {
+  font-family: "Arial";
+}
