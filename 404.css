@@ -105,18 +105,26 @@
   justify-content: space-between;
   background-image: radial-gradient(circle at right top, rgb(255, 0, 0) 1.00%,rgb(0, 128, 222) 100.00%);
 }
+.navbar-navlink {
+  display: contents;
+}
 .navbar-image {
   width: 60px;
   height: 60px;
   transition: 0.3s;
+  text-decoration: none;
 }
 .navbar-image:hover {
   width: 65px;
   height: 65px;
 }
+.navbar-navlink1 {
+  display: contents;
+}
 .navbar-text {
   transition: 0.3s;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .navbar-text:hover {
   color: var(--dl-color-danger-500);
