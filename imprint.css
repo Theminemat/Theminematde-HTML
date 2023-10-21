@@ -194,7 +194,9 @@
 
 
 
-
+.navbar-root-class-name3 {
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+}
 @media(max-width: 1600px) {
   .navbar-header {
     width: 1600px;
@@ -279,6 +281,9 @@
   }
   .navbar-mobile-menu {
     padding: 16px;
+  }
+  .navbar-root-class-name1 {
+    align-self: center;
   }
 }
 
@@ -582,4 +587,24 @@
   width: var(--dl-size-size-large);
   text-align: center;
   transition-duration: 1s;
+}
+@media(max-width: 1600px) {
+  .imprint-footer {
+    margin-top: var(--dl-space-space-unit);
+    border-color: #ff0303;
+    border-width: 0px;
+  }
+}
+@media(max-width: 1200px) {
+  .imprint-text03 {
+    width: auto;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .imprint-image {
+    width: 467px;
+    height: 64px;
+  }
 }

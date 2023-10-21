@@ -194,7 +194,9 @@
 
 
 
-
+.navbar-root-class-name3 {
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+}
 @media(max-width: 1600px) {
   .navbar-header {
     width: 1600px;
@@ -279,5 +281,8 @@
   }
   .navbar-mobile-menu {
     padding: 16px;
+  }
+  .navbar-root-class-name1 {
+    align-self: center;
   }
 }

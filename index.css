@@ -194,7 +194,9 @@
 
 
 
-
+.navbar-root-class-name3 {
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+}
 @media(max-width: 1600px) {
   .navbar-header {
     width: 1600px;
@@ -279,6 +281,9 @@
   }
   .navbar-mobile-menu {
     padding: 16px;
+  }
+  .navbar-root-class-name1 {
+    align-self: center;
   }
 }
 
@@ -411,13 +416,6 @@
   align-items: center;
   flex-direction: column;
 }
-.home-container3 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
 .home-text {
   color: #ffffff;
   width: auto;
@@ -435,14 +433,7 @@
   transition-delay: 0.5s;
   transition-duration: 3s;
 }
-.home-container4 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
-.home-container5 {
+.home-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -503,100 +494,11 @@
   width: 220px;
   transition-duration: 0.5s;
 }
-.home-bob1 {
-  left: 84px;
-  width: 150px;
-  bottom: -120px;
-  height: 146px;
-  z-index: 1;
-  position: absolute;
-  object-fit: cover;
-  transition: 0.3s;
-}
-.home-bob1:hover {
-  width: 170px;
-  transform: rotate(20deg);
-  transition-duration: 1s;
-}
-.home-bob11 {
-  right: 172px;
-  width: 150px;
-  bottom: -260px;
-  height: 146px;
-  z-index: 1;
-  position: absolute;
-  object-fit: cover;
-  transition: 0.3s;
-}
-.home-bob11:hover {
-  width: 170px;
-  transform: rotate(20deg);
-  transition-duration: 1s;
-}
-.home-bob12 {
-  right: 74px;
-  width: 150px;
-  bottom: 34px;
-  height: 156px;
-  position: absolute;
-  object-fit: cover;
-  transition: 0.3s;
-}
-.home-bob12:hover {
-  width: 170px;
-  transform: rotate(20deg);
-  transition-duration: 1s;
-}
-.home-bob13 {
-  left: -140px;
-  width: 216px;
-  bottom: 23px;
-  height: 216px;
-  position: absolute;
-  transform: rotate(90deg);
-  object-fit: cover;
-  transition: 0.3s;
-}
-.home-bob13:hover {
-  width: 300px;
-  transition-duration: 1s;
-}
-.home-corner-top-red {
-  top: -244px;
-  right: -10px;
-  width: 1904px;
-  height: 250px;
-  opacity: 1;
-  position: absolute;
-  object-fit: cover;
-}
-.home-corner-top-red1 {
-  top: -102px;
-  left: -10px;
-  width: 258px;
-  height: 240px;
-  opacity: 1;
-  z-index: 0;
-  position: absolute;
-  transform: rotate(180deg);
-  object-fit: cover;
-  transition: 0.3s;
-}
-.home-corner-top-red1:hover {
-  width: 100px;
-  transition-duration: 1s;
-}
-.home-container6 {
-  width: 200px;
-  height: 68px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
 .home-footer {
   width: 100%;
   height: 343px;
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -622,7 +524,7 @@
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   transition-duration: 1s;
 }
-.home-text09 {
+.home-text11 {
   font-size: 20px;
   font-family: "Impact";
   padding-top: var(--dl-space-space-unit);
@@ -653,16 +555,98 @@
   text-align: center;
   transition-duration: 1s;
 }
+.home-bob1 {
+  top: 597px;
+  left: 106px;
+  width: 150px;
+  height: 146px;
+  z-index: 200;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.home-bob1:hover {
+  width: 170px;
+  transform: rotate(20deg);
+  transition-duration: 1s;
+}
+.home-bob11 {
+  right: 138px;
+  width: 150px;
+  bottom: 470px;
+  height: 146px;
+  z-index: 200;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.home-bob11:hover {
+  width: 90px;
+  transform: rotate(20deg);
+  transition-duration: 1s;
+}
+.home-bob12 {
+  right: 88px;
+  width: 150px;
+  bottom: 180px;
+  height: 156px;
+  position: absolute;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.home-bob12:hover {
+  width: 100px;
+  transform: rotate(20deg);
+  transition-duration: 1s;
+}
+.home-bob13 {
+  left: -140px;
+  width: 216px;
+  bottom: 23px;
+  height: 216px;
+  position: absolute;
+  transform: rotate(90deg);
+  object-fit: cover;
+  transition: 0.3s;
+}
+.home-bob13:hover {
+  width: 190px;
+  transition-duration: 1s;
+}
+.home-corner-top-red {
+  top: 75px;
+  left: 12px;
+  width: 1904px;
+  height: 250px;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.home-corner-top-red1 {
+  top: 208px;
+  left: -46px;
+  width: 258px;
+  height: 240px;
+  opacity: 1;
+  z-index: 200;
+  position: absolute;
+  transform: rotate(180deg);
+  object-fit: cover;
+  transition: 0.3s;
+}
+.home-corner-top-red1:hover {
+  width: 100px;
+  transition-duration: 1s;
+}
 @media(max-width: 1600px) {
   .home-container {
+    align-items: center;
+    justify-content: flex-start;
     background-color: #0c0b0b;
   }
   .home-bio {
-    top: 73px;
-    right: -1px;
     width: 1600px;
     display: flex;
-    position: absolute;
     align-self: center;
     padding-left: 0px;
     flex-direction: row;
@@ -690,17 +674,54 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
   .home-container1 {
-    left: -2px;
     width: 1600px;
-    bottom: 244px;
-    position: absolute;
+    z-index: 100;
+    margin-top: 0px;
+  }
+  .home-container3 {
+    margin-top: var(--dl-space-space-twounits);
   }
   .home-link6 {
     margin-left: var(--dl-space-space-threeunits);
   }
+  .home-image6 {
+    z-index: 99;
+  }
+  .home-footer {
+    width: 1600px;
+    height: 335px;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  .home-bob1 {
+    top: 619px;
+    left: 54px;
+    z-index: 5000;
+  }
+  .home-bob11 {
+    top: 391px;
+    right: 22px;
+    z-index: 5000;
+  }
   .home-bob12 {
-    right: 54px;
-    bottom: -170px;
+    top: 707px;
+    right: 132px;
+    z-index: 100;
+  }
+  .home-bob13 {
+    left: -140px;
+    z-index: 5000;
+  }
+  .home-corner-top-red {
+    top: 77px;
+    left: 4px;
+    z-index: 100;
+  }
+  .home-corner-top-red1 {
+    top: 260px;
+    left: -102px;
+    z-index: 100;
   }
 }
 @media(max-width: 1200px) {
@@ -710,6 +731,7 @@
     width: 1200px;
     height: 279px;
     display: flex;
+    margin-bottom: 0px;
     background-size: cover;
     background-image: url('https://staticg.sportskeeda.com/editor/2021/09/f279a-16310014904402-800.jpg');
     background-position: center;
@@ -730,31 +752,38 @@
     position: static;
   }
   .home-container1 {
-    top: 360px;
-    left: -4px;
     width: 1200px;
   }
   .home-bob1 {
-    left: 62px;
+    top: 283px;
+    left: 840px;
     width: 156px;
-    bottom: -88px;
     height: 166px;
+    z-index: 400;
   }
   .home-bob11 {
-    left: 62px;
-    width: 156px;
-    bottom: -88px;
-    height: 166px;
+    top: 585px;
+    left: -6px;
+    width: 80px;
+    height: 84px;
   }
   .home-bob12 {
-    right: 72px;
-    width: 124px;
-    bottom: -112px;
-    height: 140px;
+    top: 707px;
+    right: 18px;
+    width: 88px;
+    height: 96px;
+  }
+  .home-bob13 {
+    left: -140px;
+  }
+  .home-corner-top-red {
+    top: 121px;
+    left: -2px;
+    width: 1200px;
   }
   .home-corner-top-red1 {
-    top: -184px;
-    left: -288px;
+    top: 274px;
+    left: -66px;
   }
 }
 @media(max-width: 991px) {
@@ -788,10 +817,9 @@
     margin-bottom: 0px;
   }
   .home-container1 {
-    top: 352px;
-    left: 0px;
     width: 767px;
     height: 290px;
+    margin-top: 20px;
   }
   .home-image5 {
     display: none;
@@ -801,6 +829,16 @@
   }
   .home-image6 {
     display: none;
+  }
+  .home-link7 {
+    width: 720px;
+    text-align: center;
+  }
+  .home-image7 {
+    width: 767px;
+  }
+  .home-text11 {
+    color: #484747;
   }
 }
 @media(max-width: 479px) {
@@ -844,21 +882,14 @@
     padding-left: var(--dl-space-space-halfunit);
   }
   .home-container1 {
-    top: 320px;
-    left: -2px;
     width: 479px;
     height: 340px;
     margin-right: 0px;
   }
   .home-text {
     color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-style: normal;
-    font-family: Impact;
-    font-weight: 500;
-    line-height: 1;
   }
-  .home-container5 {
+  .home-container3 {
     position: relative;
   }
   .home-link5 {
@@ -870,7 +901,20 @@
     font-size: 70px;
     margin-left: var(--dl-space-space-unit);
   }
+  .home-link7 {
+    color: rgb(0, 128, 222);
+    width: 500px;
+    font-size: 21px;
+    text-align: center;
+    font-family: Impact;
+    text-decoration: none;
+  }
+  .home-image7 {
+    width: 479px;
+  }
   .home-corner-top-red {
+    top: 89px;
+    right: 0px;
     width: 479px;
   }
   .home-corner-top-red1 {
