@@ -239,6 +239,11 @@
   .navbar-nav {
     position: relative;
   }
+  .navbar-root-class-name1 {
+    top: 0px;
+    left: 0px;
+    position: static;
+  }
 }
 @media(max-width: 991px) {
   .navbar-header {

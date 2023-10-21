@@ -239,6 +239,11 @@
   .navbar-nav {
     position: relative;
   }
+  .navbar-root-class-name1 {
+    top: 0px;
+    left: 0px;
+    position: static;
+  }
 }
 @media(max-width: 991px) {
   .navbar-header {
@@ -303,7 +308,7 @@
   display: flex;
   z-index: 500;
   align-items: center;
-  margin-bottom: 4px;
+  margin-bottom: 0px;
   background-size: cover;
   justify-content: center;
   background-image: url('https://images2.alphacoders.com/126/1263621.png');
@@ -614,15 +619,6 @@
   transition-duration: 1s;
 }
 .home-corner-top-red {
-  top: 75px;
-  left: 12px;
-  width: 1904px;
-  height: 250px;
-  opacity: 1;
-  position: absolute;
-  object-fit: cover;
-}
-.home-corner-top-red1 {
   top: 208px;
   left: -46px;
   width: 258px;
@@ -634,7 +630,7 @@
   object-fit: cover;
   transition: 0.3s;
 }
-.home-corner-top-red1:hover {
+.home-corner-top-red:hover {
   width: 100px;
   transition-duration: 1s;
 }
@@ -646,9 +642,9 @@
   }
   .home-bio {
     width: 1600px;
+    height: 212px;
     display: flex;
     align-self: center;
-    padding-left: 0px;
     flex-direction: row;
     background-image: url('https://images2.alphacoders.com/126/1263621.png');
     background-position: center;
@@ -698,18 +694,18 @@
     text-align: center;
   }
   .home-bob1 {
-    top: 619px;
-    left: 54px;
+    top: 615px;
+    left: -14px;
     z-index: 5000;
   }
   .home-bob11 {
-    top: 391px;
-    right: 22px;
+    top: 297px;
+    right: -20px;
     z-index: 5000;
   }
   .home-bob12 {
-    top: 707px;
-    right: 132px;
+    top: 623px;
+    right: -4px;
     z-index: 100;
   }
   .home-bob13 {
@@ -717,13 +713,8 @@
     z-index: 5000;
   }
   .home-corner-top-red {
-    top: 77px;
-    left: 4px;
-    z-index: 100;
-  }
-  .home-corner-top-red1 {
-    top: 260px;
-    left: -102px;
+    top: 202px;
+    left: -84px;
     z-index: 100;
   }
 }
@@ -783,11 +774,6 @@
     display: none;
   }
   .home-corner-top-red {
-    top: 121px;
-    left: -2px;
-    width: 1200px;
-  }
-  .home-corner-top-red1 {
     top: 274px;
     left: -66px;
   }
@@ -800,7 +786,27 @@
   }
   .home-container1 {
     width: 991px;
-    height: 416px;
+    height: 438px;
+  }
+  .home-container2 {
+    width: 50%;
+    height: 205px;
+  }
+  .home-link6 {
+    text-align: center;
+  }
+  .home-footer {
+    width: 991px;
+    height: 353px;
+  }
+  .home-link7 {
+    width: 850px;
+    align-self: center;
+    text-align: center;
+  }
+  .home-image7 {
+    width: 787px;
+    height: 125px;
   }
   .home-bob1 {
     display: none;
@@ -825,10 +831,13 @@
   .home-container1 {
     width: 767px;
     height: 290px;
-    margin-top: 20px;
   }
   .home-image5 {
     display: none;
+  }
+  .home-container2 {
+    width: 556px;
+    height: 230px;
   }
   .home-text {
     color: rgb(255, 255, 255);
@@ -836,12 +845,18 @@
   .home-image6 {
     display: none;
   }
+  .home-footer {
+    width: 751px;
+    height: 389px;
+  }
   .home-link7 {
-    width: 720px;
+    width: 550px;
+    font-size: 19px;
     text-align: center;
   }
   .home-image7 {
-    width: 767px;
+    width: 498px;
+    height: 71px;
   }
   .home-text11 {
     color: #484747;
@@ -851,6 +866,7 @@
   .home-bio {
     width: 479px;
     height: 238px;
+    margin-bottom: 0px;
   }
   .home-image {
     width: auto;
@@ -890,10 +906,17 @@
   .home-container1 {
     width: 479px;
     height: 340px;
+    margin-top: 0px;
     margin-right: 0px;
   }
   .home-text {
     color: rgb(255, 255, 255);
+    width: 350px;
+    font-size: 40px;
+    font-style: normal;
+    font-family: Impact;
+    font-weight: 500;
+    line-height: 1;
   }
   .home-container3 {
     position: relative;
@@ -907,23 +930,22 @@
     font-size: 70px;
     margin-left: var(--dl-space-space-unit);
   }
+  .home-footer {
+    width: 479px;
+  }
   .home-link7 {
     color: rgb(0, 128, 222);
-    width: 500px;
-    font-size: 21px;
+    width: 460px;
+    font-size: 18px;
     text-align: center;
     font-family: Impact;
     text-decoration: none;
   }
   .home-image7 {
-    width: 479px;
+    width: 462px;
+    height: 71px;
   }
   .home-corner-top-red {
-    top: 89px;
-    right: 0px;
-    width: 479px;
-  }
-  .home-corner-top-red1 {
     display: none;
   }
 }
