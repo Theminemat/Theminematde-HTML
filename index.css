@@ -650,6 +650,7 @@
     align-self: center;
     padding-left: 0px;
     flex-direction: row;
+    background-image: url('https://images2.alphacoders.com/126/1263621.png');
     background-position: center;
   }
   .home-image {
@@ -691,7 +692,6 @@
     width: 1600px;
     height: 335px;
     align-items: center;
-    margin-bottom: 0px;
     justify-content: center;
   }
   .home-navlink1 {
@@ -736,7 +736,7 @@
     display: flex;
     margin-bottom: 0px;
     background-size: cover;
-    background-image: url('https://staticg.sportskeeda.com/editor/2021/09/f279a-16310014904402-800.jpg');
+    background-image: url('https://images2.alphacoders.com/126/1263621.png');
     background-position: center;
   }
   .home-image {
@@ -769,15 +769,18 @@
     left: -6px;
     width: 80px;
     height: 84px;
+    display: none;
   }
   .home-bob12 {
     top: 707px;
     right: 18px;
     width: 88px;
     height: 96px;
+    display: none;
   }
   .home-bob13 {
     left: -140px;
+    display: none;
   }
   .home-corner-top-red {
     top: 121px;
@@ -793,7 +796,7 @@
   .home-bio {
     width: 991px;
     display: flex;
-    background-image: url('https://staticg.sportskeeda.com/editor/2021/09/f279a-16310014904402-800.jpg');
+    background-image: url('https://images2.alphacoders.com/126/1263621.png');
   }
   .home-container1 {
     width: 991px;
